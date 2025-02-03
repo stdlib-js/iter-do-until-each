@@ -112,8 +112,8 @@ The returned iterator protocol-compliant object has the following properties:
 
 Both the `predicate` function and the function to invoke for each iterated value are provided two arguments:
 
--   **value**: iterated value
--   **index**: iteration index (zero-based)
+-   **value**: iterated value.
+-   **index**: iteration index (zero-based).
 
 ```javascript
 var array2iterator = require( '@stdlib/array-to-iterator' );
@@ -294,7 +294,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
