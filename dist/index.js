@@ -1,5 +1,0 @@
-"use strict";var y=function(t,r){return function(){try{return r||t((r={exports:{}}).exports,r),r.exports}catch(n){throw (r=0, n)}};};var d=y(function(p,c){
-var l=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),s=require('@stdlib/assert-is-function/dist'),b=require('@stdlib/assert-is-iterator-like/dist'),o=require('@stdlib/symbol-iterator/dist'),v=require('@stdlib/error-tools-fmtprodmsg/dist');function m(t,r,n,f){var u,i,a;if(!b(t))throw new TypeError(v('1tJ46',t));if(!s(r))throw new TypeError(v('1tJ2H',r));if(!s(n))throw new TypeError(v('1tJ3N',n));return a=-1,u={},l(u,"next",g),l(u,"return",q),o&&s(t[o])&&l(u,o,w),u;function g(){var e;return a+=1,i?{done:!0}:(e=t.next(),e.done?(i=!0,e):(e=e.value,n.call(f,e,a),r(e,a)===!0?(i=!0,{done:!0}):{value:e,done:!1}))}function q(e){return i=!0,arguments.length?{value:e,done:!0}:{done:!0}}function w(){return m(t[o](),r,n,f)}}c.exports=m
-});var h=d();module.exports=h;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
